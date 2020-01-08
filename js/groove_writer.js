@@ -3878,7 +3878,7 @@ function GrooveWriter() { "use strict";
 		document.getElementById("shortenerCheckbox").checked = false;  // uncheck shortenerCheckbox, because it is not compatible
 		document.getElementById("embedCodeCheckbox").checked = true;  // this will be true if isn't already
 
-		var embedText = '<iframe width="100%" height="240" src="' + fullURL + '" frameborder="0" ></iframe>	';
+		var embedText = '<iframe width="100%" height="180" src="' + fullURL + '" frameborder="0" ></iframe>	';
 
 		var textField = document.getElementById(cssIdOfTextFieldToFill);
 		textField.value = embedText;
