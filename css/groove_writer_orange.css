@@ -66,7 +66,7 @@
 		height: 48px;  /* total 48 */
 		border-bottom: 1px solid #000;
 		background: #E69D02;
-		background: linear-gradient(to right, #E69D02, #CC6500);
+		background: linear-gradient(to right, #000000, #FFFFFF);
 		display: block;
 	}
 	#midiPlayer {  /* more #midiPlayer css in groove_display.css */
